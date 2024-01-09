@@ -1,10 +1,3 @@
-/**
-* Template Name: DevFolio
-* Updated: Jul 27 2023 with Bootstrap v5.3.1
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -869,7 +862,14 @@ a:hover {
   border-radius: 1rem;
   margin-bottom: 3rem;
   text-align: center;
+  transition: background-color 1s ease;
 }
+
+.service-box:hover{
+  background-color: #353441;
+}
+
+
 
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
@@ -901,11 +901,16 @@ a:hover {
   text-align: center;
   padding: 0.4rem 0;
 }
+.service-box:hover .s-title {
+  color: #ffffff;
+}
 
 .service-box .s-description {
   color: #4e4e4e;
 }
-
+.service-box:hover .s-description {
+  color: #ffffff;
+}
 /*--------------------------------------------------------------
 # Counter
 --------------------------------------------------------------*/
@@ -1444,9 +1449,9 @@ a:hover {
 --------------------------------------------------------------*/
 footer {
   text-align: center;
-  color: #fff;
+  color: #000000;
   padding: 25px 0;
-  background: #0062d3;
+  background:#fff;
 }
 
 footer .copyright {
@@ -1458,5 +1463,18 @@ footer .credits {
 }
 
 footer .credits a {
-  color: #fff;
+  color: #000000;
+}
+
+.download{
+  height: 2em;
+  width: 8em;
+  background-color: #353441;
+}
+.download:hover{
+  background-color: #0078ff;
+}
+
+.download a{
+  color: #ffffff;
 }
