@@ -956,7 +956,9 @@ a:hover {
 }
 
 .work-img {
-  display: block;
+  width: auto;
+  height: 55vh;
+  object-fit: cover;
   overflow: hidden;
 }
 
@@ -1477,4 +1479,18 @@ footer .credits a {
 
 .download a{
   color: #ffffff;
+}
+
+.infodent{
+  font-family: 'Playfair Display', serif;
+  color: #333333;
+}
+
+.lead{
+  font-family: 'Epilogue', sans-serif;
+  color: #333333;
+}
+
+.about-info{
+  padding-top: 1.8em;
 }
